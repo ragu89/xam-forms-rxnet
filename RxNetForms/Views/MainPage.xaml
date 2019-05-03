@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:RxNetForms" 
+    x:Class="RxNetForms.Views.MainPage"
+    Title="Rx.NET playground">
+        
+        <TableView Intent="Form">
+            <TableSection Title="Select a use case">
+                <TextCell x:Name="item1" Text="Event as observable" Tapped="NavigateToPage1" />
+                <TextCell x:Name="item2" Text="Dedicated service as observable" Tapped="NavigateToPage2" />
+            </TableSection>
+        </TableView>
+        
+</ContentPage>
